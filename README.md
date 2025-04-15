@@ -82,3 +82,7 @@ To let nvm use the right version:
 nvm use
 
 ```
+
+### nodemon
+
+https://blog.logrocket.com/configuring-nodemon-typescript/
