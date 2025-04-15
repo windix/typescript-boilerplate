@@ -46,6 +46,17 @@ npm init @eslint/config@latest
 
 ### prettier
 
+https://prettier.io/docs/install
+
+```sh
+npm install --save-dev --save-exact prettier
+
+node --eval "fs.writeFileSync('.prettierrc','{}\n')"
+
+node --eval "fs.writeFileSync('.prettierignore','# Ignore artifacts:\nbuild\ncoverage\n')"
+
+```
+
 ### vscode
 
 ### nvm / node
