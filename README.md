@@ -66,3 +66,18 @@ node --eval "fs.writeFileSync('.prettierignore','# Ignore artifacts:\nbuild\ncov
 - [default settings](./.vscode/settings.json)
 
 ### nvm / node
+
+```sh
+node --version > .nvmrc
+
+npm i -D @types/node
+npm i -D @tsconfig/node22
+
+```
+
+To let nvm use the right version:
+
+```sh
+nvm use
+
+```
