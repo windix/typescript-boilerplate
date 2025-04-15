@@ -12,7 +12,7 @@ https://www.typescriptlang.org/download/
 
 ```sh
 npm i -D typescript@latest
-npm i -D ts-node
+npm i -D tsx
 
 npx tsc --init --target esnext --module commonjs
 
@@ -86,3 +86,13 @@ nvm use
 ### nodemon
 
 https://blog.logrocket.com/configuring-nodemon-typescript/
+
+### copy
+
+```sh
+# backup destination files (e.g. package.json)
+# replace dest/
+# replace --dry-run when ready
+rsync -av --dry-run --exclude=node_modules --exclude=dist --exclude=.git --exclude=README.md . dest/
+
+```
