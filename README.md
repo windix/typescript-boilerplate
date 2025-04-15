@@ -12,14 +12,14 @@ https://www.toptal.com/developers/gitignore/api/node
 
 https://www.typescriptlang.org/download/
 
-```
+```bash
 npm i -D typescript@latest
 
 npx tsc --init --target esnext --module commonjs
 
 ```
 
-```
+```text
 Created a new tsconfig.json with:
   target: esnext
   module: commonjs
@@ -37,12 +37,14 @@ You can learn more at https://aka.ms/tsconfig
 https://editorconfig.org/
 
 
+### ESLint
 
+https://eslint.org/docs/latest/use/getting-started
 
+```bash
+npm init @eslint/config@latest
 
-
-### eslint
-
+```
 
 ### prettier
 
