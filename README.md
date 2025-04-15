@@ -32,8 +32,13 @@ You can learn more at https://aka.ms/tsconfig
 ```
 
 
+### EditorConfig
 
-### editconfig
+https://editorconfig.org/
+
+
+
+
 
 
 ### eslint
