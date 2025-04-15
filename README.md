@@ -1,8 +1,6 @@
 # Typescript Boilerplate
 
-
 ## Setup
-
 
 ### gitignore
 
@@ -12,7 +10,7 @@ https://www.toptal.com/developers/gitignore/api/node
 
 https://www.typescriptlang.org/download/
 
-```bash
+```sh
 npm i -D typescript@latest
 
 npx tsc --init --target esnext --module commonjs
@@ -31,27 +29,23 @@ Created a new tsconfig.json with:
 You can learn more at https://aka.ms/tsconfig
 ```
 
-
 ### EditorConfig
 
 https://editorconfig.org/
 
-
-### ESLint
+### ESLint / Typescript ESLint
 
 https://eslint.org/docs/latest/use/getting-started
 
-```bash
+https://typescript-eslint.io/getting-started
+
+```sh
 npm init @eslint/config@latest
 
 ```
 
 ### prettier
 
-
 ### vscode
 
-
 ### nvm / node
-
-
